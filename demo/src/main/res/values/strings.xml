@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SimpleAnimation</string>
+    <string name="start">Start</string>
+    <string name="animation">Animation</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+</resources>

@@ -49,5 +49,15 @@
         android:scaleType="fitCenter"
         android:id="@+id/image"
         />
+    <!-- Using animator selector from https://youtu.be/EjTJIDKT72M -->
+    <CheckBox
+        android:layout_width="@dimen/fab"
+        android:layout_height="@dimen/fab"
+        android:id="@+id/fab"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:tooltipText="Click"
+        android:background="@drawable/animated_selector"/>
 
 </android.support.constraint.ConstraintLayout>

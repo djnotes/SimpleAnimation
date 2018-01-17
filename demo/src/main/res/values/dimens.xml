@@ -6,4 +6,5 @@
     <dimen name="image_height">40dp</dimen>
     <dimen name="image_height2">250dp</dimen>
     <dimen name="text_height2">100dp</dimen>
+    <dimen name="fab">100dp</dimen>
 </resources>

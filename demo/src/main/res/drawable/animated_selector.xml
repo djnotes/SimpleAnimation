@@ -3,9 +3,9 @@
     tools:targetApi="lollipop">
  <item 
   android:id="@+id/liked"
-  android:state_checked="true"
+  android:state_pressed="false"
   android:drawable="@drawable/ic_heart_full"/>
-  
+
   <item android:id="@+id/not_liked"
   android:drawable="@drawable/ic_heart_empty"
   />
@@ -14,7 +14,7 @@
    android:fromId="@id/not_liked"
    android:toId="@id/liked"
    android:drawable="@drawable/avd_heart_fill"/>
-   <transition 
+   <transition
    android:fromId="@+id/liked"
    android:toId="@+id/not_liked"
    android:drawable="@drawable/avd_heart_break"/>
